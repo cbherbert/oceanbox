@@ -22,6 +22,16 @@ pip install jupyter
 jupyter notebook oceanbox.ipynb
 ```
 
+If you have `conda` installed, you might prefer to use it to create the virtual environment instead of the above:
+
+```
+git clone https://github.com/cbherbert/oceanbox
+cd oceanbox
+conda env create -f environment.yml
+conda activate oceanbox
+jupyter notebook oceanbox.ipynb
+```
+
 ### Cloud computing
 
 You can use this notebook without installing or downloading anything on your machine, by using Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cbherbert/oceanbox/HEAD)
